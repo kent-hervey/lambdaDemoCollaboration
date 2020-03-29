@@ -19,9 +19,12 @@ public class App {
 		
 		
 		System.out.println(greetingLambda.greeting());
-		
-		
-		
+
+		User user = (n, age, isMale)	-> {
+			return n + " is " + age + " and is male? " + isMale;
+		};
+
+		System.out.println(user.fetchUser("Tony", 44, true));
 
 	}
 
