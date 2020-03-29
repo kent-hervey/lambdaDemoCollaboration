@@ -8,6 +8,13 @@ public class App {
 		
 		String name = "Kent";
 		
+		NameGreeter nameGreeter = new NameGreeter();
+		String nameGreeting = nameGreeter.greetUser("Tony");
+		String guestGreeting = nameGreeter.greeting();
+
+		System.out.println(nameGreeting);
+		System.out.println(guestGreeting);
+
 		MrGreeter greetingLambda = () -> {return "Hello " + name;};
 		
 		
@@ -17,5 +24,7 @@ public class App {
 		
 
 	}
+
+
 
 }
