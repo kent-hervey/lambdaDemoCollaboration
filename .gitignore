@@ -13,7 +13,8 @@
 target/
 *.classpath
 .project
-
+.idea
+*.iml
 
 
 # generated files etc
