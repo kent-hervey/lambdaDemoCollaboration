@@ -17,8 +17,12 @@ public class App {
 
 		MrGreeter greetingLambda = () -> {return "Hello " + name;};
 		
+		MrGreeter greetingLambda2 = () -> {return "Howdy " + name;};
+		
 		
 		System.out.println(greetingLambda.greeting());
+		
+		System.out.println(greetingLambda2.greeting());
 
 		User user = (n, age, isMale)	-> {
 			return n + " is " + age + " and is male? " + isMale;
