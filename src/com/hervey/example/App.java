@@ -17,7 +17,7 @@ public class App {
 
 		MrGreeter greetingLambda = () -> {return "Hello " + name;};
 		
-		MrGreeter greetingLambda2 = () -> {return "Howdy " + name;};
+		MrGreeter greetingLambda2 = () -> {return "Howdy and Hello" + name;};
 		
 		
 		System.out.println(greetingLambda.greeting());
