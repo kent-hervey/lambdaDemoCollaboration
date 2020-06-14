@@ -29,6 +29,10 @@ public class App {
 		};
 
 		System.out.println(user.fetchUser("Tony", 44, true));
+		
+		ImplUser user2 = new ImplUser("Mary", 44, false);
+		
+		System.out.println(user2.toString());
 
 	}
 
