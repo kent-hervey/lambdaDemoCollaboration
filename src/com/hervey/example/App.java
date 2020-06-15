@@ -33,6 +33,8 @@ public class App {
 		ImplUser user2 = new ImplUser("Mary", 44, false);
 		
 		System.out.println(user2.toString());
+		
+		System.out.println(user2.age + " is age of user 2");
 
 	}
 
