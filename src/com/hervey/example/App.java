@@ -35,6 +35,10 @@ public class App {
 		System.out.println(user2.toString());
 		
 		System.out.println(user2.age + " is age of user 2");
+		
+		ImplUser2 user3 = new ImplUser2("Fred", 88, true, true, 7);
+		
+		System.out.println(user3.toString());
 
 	}
 
